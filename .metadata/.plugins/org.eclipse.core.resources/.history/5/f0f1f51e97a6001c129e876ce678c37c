@@ -1,0 +1,21 @@
+package org.core;
+
+import java.net.ServerSocket;
+
+/**
+ * @date 2022-3-18
+ * @author bobee
+ */
+public class BootStrap{
+	/**
+	 * 服务器启动类入口: 
+	 */
+	public static void main(String[] args) {
+		//在18080端口上去监听
+		int port = 18080;
+		try {
+			//判断端口是否可用
+			ServerSocket ss = new ServerSocket();
+		}
+	}
+}

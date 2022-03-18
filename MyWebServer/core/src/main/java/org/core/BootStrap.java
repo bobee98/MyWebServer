@@ -30,9 +30,9 @@ public class BootStrap{
 				
 				//返回一个输出流
 				OutputStream out = s.getOutputStream();
-				String response = "HTTP/1.1 200 OK\r\n" + "Content-Type: text/html\r\n\r\n";
-				response += "Hello, this is MyWebServer";
-				out.write(response.getBytes());
+				Response response = new Response();
+				response.setcontent("Hello, myFirstAtempt");
+				out.write(response.get200().getBytes());
 				out.flush(); //只是一个传输标志，没有任何实际代码
 				s.close();
 			}

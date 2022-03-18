@@ -1,21 +1,32 @@
 package org.core.http;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import cn.hutool.core.util.StrUtil;
+
 public class Response {
-	private static String headHttpVersion = "HTTP/1.1";
-	private static String headerUrl = "localhost:18080";
-	private static String headerContentType = "Content-Type: text/html";
-	private int statu = 0;
-	private String content = "";
+	public final static String response_head_200 =
+            "HTTP/1.1 200 OK\r\n" +
+            "Content-Type: {}\r\n\r\n";
+	private String contentType = "text/html";
 	
-	public void setcontent(String content) {
-		this.content = content;
-	}
-	public String getcontent(String content) {
-		return this.content;
+	private StringWriter responseString; //用来存最终的内容
+	private PrintWriter printWriter; //会向初始化时绑定的writer中写入数据，为什么这两个要一起用？
+
+	public Response() {
+		responseString  = new StringWriter();
+		this.printWriter = new PrintWriter(responseString);
 	}
 	
-	public String get200() {
-		return headHttpVersion + " " + 200 + " OK\r\n" + headerContentType
-				+ "\r\n\r\n" + content;
+	public PrintWriter getWriter() {
+		return printWriter;
+	}
+	
+	public byte[] get200Head() {
+		String headText = StrUtil.format(response_head_200, contentType);
+		String headAndBody = headText + responseString.toString();
+		byte[] responseBytes = headAndBody.getBytes();
+		return responseBytes;
 	}
 }

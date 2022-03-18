@@ -31,9 +31,9 @@ public class BootStrap{
 				//返回一个输出流
 				OutputStream out = s.getOutputStream();
 				Response response = new Response();
-				response.setcontent("Hello, myFirstAtempt");
-				out.write(response.get200().getBytes());
-				out.flush(); //只是一个传输标志，没有任何实际代码
+				String html = "hello, welcom 200";
+				response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
+				out.write(response.get200Head());
 				s.close();
 			}
 		}catch(IOException e) {

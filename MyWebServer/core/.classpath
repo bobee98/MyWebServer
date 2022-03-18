@@ -8,13 +8,14 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -23,5 +24,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/hutool-all-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/jsoup-1.12.1.jar"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/jspc_all.jar"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/junit-4.9.jar"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

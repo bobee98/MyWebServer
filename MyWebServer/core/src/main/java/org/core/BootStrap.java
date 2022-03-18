@@ -1,11 +1,8 @@
 package org.core;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketAddress;
+import java.io.*;
+import java.net.*;
+import org.core.http.*;//我自己的路径
 
 /**
  * @date 2022-3-18
@@ -27,11 +24,9 @@ public class BootStrap{
 //			ss.setReuseAddress(true); 重启服务器之后马上就可以用
 			while(true) {
 				Socket s = ss.accept();
-				InputStream in = s.getInputStream();//读取输入字节流
-				byte[] buffer = new byte[1024];
-				in.read(buffer); //因为readAll是阻塞的，先只读一部分，看一下HTTP首部
-				String sbuffer = new String(buffer, "utf-8");
-				System.out.print("socket接收到的数据：" + sbuffer);
+				Request request = new Request(s);
+				System.out.println("浏览器发送Request: " + request.getRequest());
+				System.out.println("浏览器发送URI: " + request.getUri());
 				
 				//返回一个输出流
 				OutputStream out = s.getOutputStream();

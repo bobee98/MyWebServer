@@ -4,6 +4,8 @@ import java.io.*;
 import java.net.*;
 import org.core.http.*;//我自己的路径
 import org.core.utils.Logs;
+import org.core.utils.MyThreadPool;
+import org.core.utils.Tasks;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
@@ -24,37 +26,16 @@ public class BootStrap{
 		int port = 18080;
 		int backlog = 10;
 		try {
-			//判断端口是否可用
 			//ServerSocket可以端口监听; backlog设置等待连接列表的限制（accept才会从中取出来）不要随便for循环
 			ServerSocket ss = new ServerSocket(port, backlog);
-//			ss.setReuseAddress(true); 重启服务器之后马上就可以用
 			Logs.logJVM();
+			//使用线程池来管理执行任务
+			int nThreads = 10;
+			MyThreadPool exe = new MyThreadPool(nThreads);
 			while(true) {
 				Socket s = ss.accept();
-				Request request = new Request(s);
-				System.out.println("浏览器发送Request: " + request.getRequest());
-				System.out.println("浏览器发送URI: " + request.getUri());
-				
-				//返回一个输出流
-				OutputStream out = s.getOutputStream();
-				Response response = new Response();
-				String uri = request.getUri();
-				if(uri.equals("/")) {
-					String html = "hello, welcom 200";
-					response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
-				}
-				else {
-					String fileName = StrUtil.removeSuffix(uri, "/");
-					File file = FileUtil.file("webapps/", fileName);
-					if(file.exists()) {
-						String fileContent = FileUtil.readUtf8String(file);
-						response.getWriter().println(fileContent);
-					}else {
-						response.getWriter().println("File not found, sorry!");
-					}
-				}
-				out.write(response.get200Head());
-				s.close();
+				Runnable task = Tasks.getTask(s);
+				exe.submit(task);
 			}
 		}catch(IOException e) {
 			LogFactory.get().error(e);

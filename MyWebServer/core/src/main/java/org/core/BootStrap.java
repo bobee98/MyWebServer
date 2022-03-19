@@ -4,6 +4,10 @@ import java.io.*;
 import java.net.*;
 import org.core.http.*;//我自己的路径
 
+import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.util.StrUtil;
+import cn.hutool.system.SystemUtil;
+
 /**
  * @date 2022-3-18
  * @author bobee
@@ -31,8 +35,21 @@ public class BootStrap{
 				//返回一个输出流
 				OutputStream out = s.getOutputStream();
 				Response response = new Response();
-				String html = "hello, welcom 200";
-				response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
+				String uri = request.getUri();
+				if(uri == "/") {
+					String html = "hello, welcom 200";
+					response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
+				}
+				else {
+					String fileName = StrUtil.removeSuffix(uri, "/");
+					File file = FileUtil.file("webapps/", fileName);
+					if(file.exists()) {
+						String fileContent = FileUtil.readUtf8String(file);
+						response.getWriter().println(fileContent);
+					}else {
+						response.getWriter().println("File not found, sorry!");
+					}
+				}
 				out.write(response.get200Head());
 				s.close();
 			}

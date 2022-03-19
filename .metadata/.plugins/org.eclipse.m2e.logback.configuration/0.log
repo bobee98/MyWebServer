@@ -608,3 +608,15 @@ Caused by: java.nio.file.NoSuchFileException: /Users/bobee/eclipse-workspace/MyT
 	at java.base/java.nio.file.Files.createDirectory(Files.java:700)
 	at org.eclipse.core.internal.filesystem.local.LocalFile.mkdir(LocalFile.java:307)
 	... 29 common frames omitted
+2022-03-19 14:54:51,452 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-03-19 14:54:55,189 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.liubo:core:0.0.1-SNAPSHOT @ /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/pom.xml.
+2022-03-19 14:54:55,196 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.liubo:MyWebServer:0.0.1-SNAPSHOT @ /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/pom.xml.
+2022-03-19 14:54:55,304 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.liubo:core:0.0.1-SNAPSHOT @ /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/pom.xml.
+2022-03-19 14:54:56,186 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-19 14:54:56,186 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/src/main/resources
+2022-03-19 14:54:56,188 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-19 14:54:56,189 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/src/test/resources
+2022-03-19 14:55:12,071 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-19 14:55:12,071 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/src/main/resources
+2022-03-19 14:55:12,073 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-19 14:55:12,073 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/src/test/resources

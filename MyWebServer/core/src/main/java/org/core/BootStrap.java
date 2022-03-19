@@ -3,9 +3,11 @@ package org.core;
 import java.io.*;
 import java.net.*;
 import org.core.http.*;//我自己的路径
+import org.core.utils.Logs;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
+import cn.hutool.log.LogFactory;
 import cn.hutool.system.SystemUtil;
 
 /**
@@ -26,6 +28,7 @@ public class BootStrap{
 			//ServerSocket可以端口监听; backlog设置等待连接列表的限制（accept才会从中取出来）不要随便for循环
 			ServerSocket ss = new ServerSocket(port, backlog);
 //			ss.setReuseAddress(true); 重启服务器之后马上就可以用
+			Logs.logJVM();
 			while(true) {
 				Socket s = ss.accept();
 				Request request = new Request(s);
@@ -36,7 +39,7 @@ public class BootStrap{
 				OutputStream out = s.getOutputStream();
 				Response response = new Response();
 				String uri = request.getUri();
-				if(uri == "/") {
+				if(uri.equals("/")) {
 					String html = "hello, welcom 200";
 					response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
 				}
@@ -54,7 +57,8 @@ public class BootStrap{
 				s.close();
 			}
 		}catch(IOException e) {
-			System.out.print("端口占用异常 socket bind failed");
+			LogFactory.get().error(e);
+//			System.out.print("端口占用异常 socket bind failed");
 		}finally{
 		}
 	}

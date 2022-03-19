@@ -1,0 +1,126 @@
+03 19, 2022 16:09:53 下午 org.core.BootStrap error
+ERROR: Address already in use (Bind failed)
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.core.BootStrap.main(BootStrap.java:29)
+03 19, 2022 16:11:32 下午 org.core.BootStrap error
+ERROR: Address already in use (Bind failed)
+java.net.BindException: Address already in use (Bind failed)
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.core.BootStrap.main(BootStrap.java:29)
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation

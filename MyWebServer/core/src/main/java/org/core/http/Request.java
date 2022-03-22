@@ -3,6 +3,8 @@ package org.core.http;
 import java.io.*;
 import java.net.Socket;
 
+import org.core.contalina.Context;
+
 import cn.hutool.core.util.StrUtil;
 
 
@@ -14,10 +16,10 @@ public class Request {
 	/**
 	 * 将HTTP整个报文段从socket中读出来；然后按照HTTP格式进行解析（空格分割）
 	 */
-	private String requestString;
-	private String uri;
+	private volatile String requestString;
+	private volatile String uri;
 	private Socket socket;
-	
+	private Context context;
 	/*
 	 * 	将对应的那个socket放进来；之后都在这里进行uri和request提取
 	 */
@@ -28,6 +30,7 @@ public class Request {
 		if(StrUtil.isEmpty(requestString)) return;
 		//读取处URI,方便后续的处理方法确认
 		this.parseUri();
+		this.parseContext();
 	}
 	
 	private void parseHttpRequest() throws IOException {
@@ -60,11 +63,26 @@ public class Request {
         uri = temp;
 	}
 	
+	private void parseContext() {
+		String path = StrUtil.subBetween(uri, "/", "/");
+		if(path == null)
+			path = "/";
+		else
+			path = "/" + path;
+		context = Context.contextMap.get(path);
+		if(context == null)
+			context = Context.contextMap.get("/"); //不存在到应用就回到首页
+	}
+	
 	public String getUri() {
 		return this.uri;
 	}
 	
 	public String getRequest() {
 		return this.requestString;
+	}
+	
+	public Context getContext() {
+		return this.context;
 	}
 }

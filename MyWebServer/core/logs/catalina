@@ -1,4 +1,116 @@
-03 19, 2022 16:09:53 下午 org.core.BootStrap error
+03 22, 2022 17:28:23 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 17:28:23 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 266 ms
+03 22, 2022 17:28:23 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 17:28:23 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 0 ms
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 17:28:23 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 17:31:35 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 17:31:35 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 2474 ms
+03 22, 2022 17:32:03 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 17:32:03 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 5 ms
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 17:32:17 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 17:36:14 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 17:36:14 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 234 ms
+03 22, 2022 17:36:14 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 17:36:14 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 0 ms
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 17:36:14 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 17:37:17 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 17:37:17 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 151 ms
+03 22, 2022 17:37:17 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 17:37:17 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 0 ms
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 17:37:17 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 17:37:23 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 17:37:23 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 183 ms
+03 22, 2022 17:37:25 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 17:37:25 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 0 ms
+03 22, 2022 17:37:25 下午 org.core.BootStrap error
 ERROR: Address already in use (Bind failed)
 java.net.BindException: Address already in use (Bind failed)
 	at java.net.PlainSocketImpl.socketBind(Native Method)
@@ -6,8 +118,16 @@ java.net.BindException: Address already in use (Bind failed)
 	at java.net.ServerSocket.bind(ServerSocket.java:375)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.core.BootStrap.main(BootStrap.java:29)
-03 19, 2022 16:11:32 下午 org.core.BootStrap error
+	at org.core.BootStrap.main(BootStrap.java:32)
+03 22, 2022 18:33:15 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 18:33:15 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 2399 ms
+03 22, 2022 18:33:28 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 18:33:28 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 10 ms
+03 22, 2022 18:33:46 下午 org.core.BootStrap error
 ERROR: Address already in use (Bind failed)
 java.net.BindException: Address already in use (Bind failed)
 	at java.net.PlainSocketImpl.socketBind(Native Method)
@@ -15,148 +135,420 @@ java.net.BindException: Address already in use (Bind failed)
 	at java.net.ServerSocket.bind(ServerSocket.java:375)
 	at java.net.ServerSocket.<init>(ServerSocket.java:237)
 	at java.net.ServerSocket.<init>(ServerSocket.java:181)
-	at org.core.BootStrap.main(BootStrap.java:29)
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+	at org.core.BootStrap.main(BootStrap.java:32)
+03 22, 2022 18:36:11 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 18:36:11 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 2464 ms
+03 22, 2022 18:36:15 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 18:36:15 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 1 ms
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:13:46 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:36:15 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:52 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 18:39:52 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 192 ms
+03 22, 2022 18:39:54 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 18:39:54 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 1 ms
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:14:50 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:39:54 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:35 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 18:48:35 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 351 ms
+03 22, 2022 18:48:36 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 18:48:36 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 1 ms
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:17:15 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:48:36 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp
+03 22, 2022 18:54:15 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/secondApp has finished in 135 ms
+03 22, 2022 18:54:15 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT
+03 22, 2022 18:54:15 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory /Users/bobee/eclipse-workspace/MyTomcat/MyWebServer/core/webapps/ROOT has finished in 0 ms
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:18:33 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:54:15 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:45 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory secondApp
+03 22, 2022 18:56:45 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory secondApp has finished in 2377 ms
+03 22, 2022 18:56:52 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory ROOT
+03 22, 2022 18:56:52 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory ROOT has finished in 7 ms
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:23:10 下午 org.core.utils.Logs logJVM
+03 22, 2022 18:56:55 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:53 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory secondApp
+03 22, 2022 19:01:53 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory secondApp has finished in 201 ms
+03 22, 2022 19:01:55 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory ROOT
+03 22, 2022 19:01:55 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory ROOT has finished in 1 ms
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 16:24:14 下午 org.core.utils.Logs logJVM
+03 22, 2022 19:01:55 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory secondApp
+03 22, 2022 20:42:54 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory secondApp has finished in 257 ms
+03 22, 2022 20:42:54 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory ROOT
+03 22, 2022 20:42:54 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory ROOT has finished in 1 ms
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 17:05:21 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:42:54 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory secondApp
+03 22, 2022 20:44:29 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory secondApp has finished in 174 ms
+03 22, 2022 20:44:29 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory ROOT
+03 22, 2022 20:44:29 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory ROOT has finished in 1 ms
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : Server version:		liubo MyWebServer/1.0.1
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : Server built:		2022-03-20 10:20:22
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : Server number:		1.0.1
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : OS Name	:		Mac OS X
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : OS Version:		10.15.7
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : Architecture:		x86_64
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
 INFO : JVM Version:		1.8.0_201-b09
-03 19, 2022 17:07:29 下午 org.core.utils.Logs logJVM
+03 22, 2022 20:44:29 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 20:44:51 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory secondApp
+03 22, 2022 20:44:51 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory secondApp has finished in 2364 ms
+03 22, 2022 20:44:59 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory ROOT
+03 22, 2022 20:44:59 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory ROOT has finished in 6 ms
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 20:45:02 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:12:22 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:12:22 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 2596 ms
+03 22, 2022 21:12:30 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:12:30 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 5 ms
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:12:32 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:20:10 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:20:10 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 270 ms
+03 22, 2022 21:20:10 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:20:10 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 0 ms
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:20:10 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:23:01 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:23:01 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 128 ms
+03 22, 2022 21:23:01 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:23:01 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 0 ms
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:23:01 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:27:04 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:27:04 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 143 ms
+03 22, 2022 21:27:04 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:27:04 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 1 ms
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:27:04 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:27:48 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:27:48 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 198 ms
+03 22, 2022 21:27:48 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:27:48 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 0 ms
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:27:48 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:28:09 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:28:09 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 143 ms
+03 22, 2022 21:28:09 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:28:09 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 0 ms
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:28:09 下午 org.core.utils.Logs logJVM
+INFO : JVM Vendor:		Oracle Corporation
+03 22, 2022 21:28:48 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/secondApp
+03 22, 2022 21:28:48 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/secondApp has finished in 188 ms
+03 22, 2022 21:28:48 下午 org.core.contalina.Context <init>
+INFO : Deploying web application directory webapps/ROOT
+03 22, 2022 21:28:48 下午 org.core.contalina.Context <init>
+INFO : Deployment of web application directory webapps/ROOT has finished in 0 ms
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : Server version:		liubo MyWebServer/1.0.1
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : Server built:		2022-03-20 10:20:22
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : Server number:		1.0.1
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : OS Name	:		Mac OS X
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : OS Version:		10.15.7
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : Architecture:		x86_64
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : Java Home:		/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
+INFO : JVM Version:		1.8.0_201-b09
+03 22, 2022 21:28:48 下午 org.core.utils.Logs logJVM
 INFO : JVM Vendor:		Oracle Corporation

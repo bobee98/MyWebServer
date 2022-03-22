@@ -11,6 +11,7 @@ import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.log.LogFactory;
 import cn.hutool.system.SystemUtil;
+import org.core.contalina.Context;
 
 /**
  * @date 2022-3-18
@@ -25,6 +26,7 @@ public class BootStrap{
 		//在18080端口上去监听
 		int port = 18080;
 		int backlog = 10;
+		Context.scanContextsOnWebAppsFolder();//读取所有的APP，加载到ContextMap
 		try {
 			//ServerSocket可以端口监听; backlog设置等待连接列表的限制（accept才会从中取出来）不要随便for循环
 			ServerSocket ss = new ServerSocket(port, backlog);

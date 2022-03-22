@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
+import org.core.contalina.Context;
 import org.core.http.Request;
 import org.core.http.Response;
 
@@ -43,13 +44,15 @@ class PageTask implements Runnable{
 		OutputStream out = s.getOutputStream();
 		Response response = new Response();
 		String uri = request.getUri();
-		if(uri.equals("/")) {
+		Context context = request.getContext();
+		if(uri.equals("/")) { //不存在的路径/应用，就回到主页
 			String html = "hello, welcom 200";
 			response.getWriter().println(html); //writer中的内容都会自动刷新到目标中（文件或Writer）
 		}
 		else {
-			String fileName = StrUtil.removeSuffix(uri, "/");
-			File file = FileUtil.file("webapps/", fileName);
+			String fileName = uri.replace(context.getPath(), ""); //只删除一开始匹配到的app名
+			if(context.getPath() == "/") fileName = uri;
+			File file = FileUtil.file(context.getBase(),fileName);
 			if(file.exists()) {
 				String fileContent = FileUtil.readUtf8String(file);
 				response.getWriter().println(fileContent);
